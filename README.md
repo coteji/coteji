@@ -17,7 +17,7 @@ Coteji organized into multiple repositories.
 
 ## Installation and configuration
 
-1. Download the latest CLI from https://github.com/coteji/coteji-cli/releases
+1. Download the latest CLI from [coteji-cli releases](https://github.com/coteji/coteji-cli/releases)
 2. Unzip and add `bin` directory to `PATH` environment variable
 3. Add Coteji configuration file (`config.coteji.kts`) to your tests project root, add the source and target configuration there. Here is an example of Java code as a source and Jira as a target (see the configuration details in each repo `README`):
 ```kotlin
