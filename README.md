@@ -44,11 +44,13 @@ target = JiraTarget(
 coteji --help
 ```
 or visit https://github.com/coteji/coteji-cli/blob/master/README.md
+
 5. You can test your configuration with trying a simple query for one of your Java tests:
 ```shell
 coteji try-query --query="+method:MyClass.myMethod"
 ```
 It should output the parsed Java method to the console
+
 6. Then you can set the environment variable `COTEJI_JIRA_API_TOKEN` to well... Jira API token, and run:
 ```shell
 coteji dry-run
